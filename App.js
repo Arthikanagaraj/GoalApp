@@ -14,7 +14,7 @@ export default function App() {
   }
   function deleteItem(index){
   const newGoals=goals.filter((e1,i)=>i!=index)
-  setGoals(index);
+  setGoals(newGoals);
   }
   function startAddGoalHandler(){
     setIsModalVisible(true)
